@@ -3,8 +3,15 @@ import React from "react";
 const TodoItem = (props) => {
   return (
     <div>
-      <input id={props.id} />
-      <label htmlFor={props.id}>{props.title}</label>
+      <input type="checkbox" id={props.id} />
+
+      <label htmlFor={props.id}>{props.title}
+
+        <input type="text" style={{
+          // border: '0',
+          borderBottom: '1 solid'
+        }} />
+      </label>
     </div>
   );
 };

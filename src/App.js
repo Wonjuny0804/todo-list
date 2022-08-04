@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import TodoItem from './components/TodoItem/TodoItem';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
-      <h1>Todo List</h1>
-      <TodoItem id="블라블라" title="타이틀" />
+      <Layout />
     </div>
   );
 }
